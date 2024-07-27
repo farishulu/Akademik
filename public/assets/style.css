@@ -1,0 +1,59 @@
+  .card-custom {
+      margin-top: 3%;
+  }
+
+  .table-custom {
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+
+  .table-custom th {
+      background-color: #007bff;
+      color: #fff;
+  }
+
+  .table-custom tr:nth-child(even) {
+      background-color: #f8f9fa;
+  }
+
+  .table-custom tr:hover {
+      background-color: #e9ecef;
+  }
+
+  /* header */
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.main-content {
+    flex: 1;
+    margin-left: 5px;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+#sidebar {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 5px;
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+}
+#sidebar .nav-link {
+    color: white;
+}
+#sidebar .nav-link:hover {
+    background-color: #495057;
+}
+#sidebar .nav-link.active {
+    background-color: #007bff;
+}
+main {
+    margin-left: 5px;
+    padding: 20px;
+}
